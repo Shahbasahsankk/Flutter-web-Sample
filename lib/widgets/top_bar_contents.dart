@@ -53,7 +53,7 @@ class TopBarContents extends StatelessWidget {
                               children: [
                                 Text(
                                   itemsList[index].name,
-                                  style: TextStyle(
+                                  style: const TextStyle(
                                     color: Colors.blueAccent,
                                     fontWeight: FontWeight.bold,
                                     fontSize: 16,
